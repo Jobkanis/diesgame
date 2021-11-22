@@ -80,7 +80,7 @@ for i in range(18):
     # Level to solve by algorithm, leave it like this
     Level_to_solve = len(found)
     for n in range(1, Level_to_solve + 2):
-        n = Level_to_solve - n + 2
+        #n = Level_to_solve - n + 2
         found[-1] = n
         print("Trying: " + str(found))
         
